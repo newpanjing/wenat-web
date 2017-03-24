@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>赞助我们-<%= config.site.title %></title>
+    <meta name="keywords" content="<%= config.site.keywords %>"/>
+    <meta name="description" content="<%= config.site.description %>"/>
+    <% include ./inc/lib.ejs %>
+</head>
+<body>
+<% include ./inc/nav.ejs %>
+<div class="s-header">
+    <h1>赞助我们</h1>
+    <p class="lead">
+        WeNAT是完全免费的内网穿透软件，随着用户量的增加，我们的服务器、维护等成本均在上升，而我们目前没有任何收入，我们的发展面临着资金问题。为了更好地服务大家，不断地开发、维护、完善它，需要持续投入大量的精力和一定的财力，需要您的支持和赞助。</p>
+</div>
+<div class="container">
+    <div class="pay">
+        <h2>赞助方式</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="alipay"></div>
+                <div>支付宝</div>
+            </div>
+            <div class="col-md-6">
+                <div class="wechat"></div>
+                <div>微信</div>
+            </div>
+        </div>
+        <h2>赞助原则</h2>
+        <div>完全自愿，金额不限，量力而行。</div>
+        <div>收到的赞助款项将完全用于软件的开发、服务维护等。</div>
+    </div>
+</div>
+<% include ./inc/footer.ejs %>
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+#content {
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url("../images/bg.jpg");
+    background-color: #1d1e1f;
+    background-size: cover;
+}
+
+.bd-booticon {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9rem;
+    font-size: 5.5rem;
+    line-height: 9rem;
+    padding: 10px;
+}
+
+#content .lead {
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+
+.btn-bs {
+    font-weight: 500;
+    color: #fff;
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+.btn-bs:active, .btn-bs:focus, .btn-bs:hover {
+    background-color: #7225b3;
+    color: white;
+}
+
+.desc {
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: #eee 1px solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.review {
+    width: 366px;
+    height: 255px;
+    background-image: url("../images/review.png");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding: 4rem;
+    margin-top: 4rem;
+    background-color: #f7f7f7;
+    color: #636c72 !important;
+    line-height: 25px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer .footer-nav {
+    text-align: center;
+}
+
+.footer .footer-nav a {
+    font-weight: 400;
+    color: #464a4c;
+    margin-right: 10px;
+}
+
+.footer .sites a {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #636c72;
+
+}
+
+.tips {
+    margin-top: 20px;
+}
+
+.tips .t {
+
+}
+
+.tips .c {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #666;
+}
+.contact{
+    border-top: #eee 1px solid;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.s-header{
+    min-height: 300px;
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+}
+.site-title{
+    color: #7952b3;
+}
+.alipay{
+    width: 200px;
+    height:300px;
+    background-image: url("../images/alipay.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wechat{
+    width: 200px;
+    height:300px;
+    background-image: url("../images/wechat.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pay{
+    text-align: center;
+    margin-top: 20px;
+}
