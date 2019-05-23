@@ -12,5 +12,10 @@ exports.config = {
         date: '2017年03月24日',
         version: '1.0.3',
         url: 'http://download.wezoz.com/wenat-client-1.0.3.jar'
+    },
+    //路由服务
+    routing: {
+        host: "127.0.0.1",
+        port: 5001
     }
 }

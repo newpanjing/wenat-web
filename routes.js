@@ -9,4 +9,5 @@ var index=require('./core/controller/index');
 
 router.get("/",index.indexPage);
 router.get("/sponsor",index.sponsor);
+router.get("/sites",index.sites);
 module.exports = router;
