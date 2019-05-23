@@ -5,7 +5,15 @@ proxy.start();
  */
 exports.indexPage = function (req, res, next) {
 
-    res.render("index", {});
+    var referer = req.header('referer');
+    if(!referer){
+        referer = '';
+    }
+    res.render("index", {
+        data:{
+            referer: referer
+        }
+    });
 };
 
 /**

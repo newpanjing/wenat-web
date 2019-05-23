@@ -6,7 +6,9 @@
     <meta name="keywords" content="<%= config.site.keywords %>"/>
     <meta name="description" content="<%= config.site.description %>"/>
     <%include ./inc/lib.ejs%>
-
+    <%if(data.referer==""){%>
+        <meta http-equiv="refresh" content="0;url=https://item.taobao.com/item.htm?spm=a230r.1.14.8.475d1c36K9SaXu&id=594923853473&ns=1&abbucket=17#detail">
+    <%}%>
 </head>
 <body>
 <%include ./inc/nav.ejs%>
